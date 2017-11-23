@@ -2,7 +2,7 @@ import random
 
 tab = []
 maxi = 0
-rng = 0
+rng = 0 ##Commentaire au pif
 
 def init():
     affichage = "."
