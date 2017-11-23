@@ -4,7 +4,7 @@ tab = []
 maxi = 0
 rng = 0
 
-def init():
+def init(): ##Nan mais c'est n'importe quoi
     affichage = "."
     for i in range (0, maxi):
         for j in range (0, maxi):
@@ -86,6 +86,9 @@ def count(x,y):
                     count = count +1
     return count
 
+def fin () : ##Fonction pour savoir si on finit
+    
+
 def main():
     global tab
     global rng
@@ -103,6 +106,8 @@ def main():
         res = choisir()
         while res != False:
             res = choisir()
+            if fin()==true{
+                
         print("Rejouer ? (O ou N)")
         jouer=input()
         tab = []
