@@ -27,6 +27,9 @@ def affiche():
             print (tab[i+j*maxi][3], end =" ")
         print (" ")
 
+"""
+Comme d'habitude Benoît use des méthodes inadaptées
+"""
 
 def reveal():
     for i in range (0, maxi):
